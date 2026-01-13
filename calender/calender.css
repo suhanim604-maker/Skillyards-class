@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background: rgb(1, 46, 46);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+}
+.calender {
+    width: 400px;
+    height: 400px;
+    padding: 32px;
+    background: rgb(255, 255, 255, 0.1);
+    border-radius: 25px;
+    backdrop-filter: blur(15px);
+    border: 1px solid rgb(255, 255, 255, 0.2);
+    box-shadow: 0 25px 50px -15px rgba(0, 0, 0, 0.9);
+}
+.calender-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 25px;
+    color: white;
+}
+.nav-buttons span{
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 10px 12px;
+    margin-left: 8px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 0.9rem;
+    transition: 0.4s ;
+}
+.nav-buttons span:hover {
+    background-color: rgb(255, 255, 255, 0.25);
+}
+.calender-grid {
+    display: grid;grid-template-columns: repeat(7,1fr);
+    gap: 12px;
+    
+}
+.day {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: o.75rem;
+    font-weight: 600px;
+    text-transform: uppercase;
+    padding-bottom: 10px;
+}
+.date {
+   aspect-ratio: 1; /*it insure every sell is perfect squre regardex of content*/
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   color: rgb(255, 255, 255, 0.9);
+   cursor: pointer;
+   font-size: 1rem;
+   font-weight: 350px;
+   border-radius: 12px;
+   /* transition: all 0.3s cubic-bezier(0.075, 0.82, ); */
+}
+.date:hover {
+    background-color: rgba(255, 255, 255, 0.15);
+    transform: translateY(-2px);
+    color: wheat;
+}
+.date.jb {
+    background-color: aliceblue;
+    color: black;
+    font-weight: 700;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.3);
+}
+.jb:hover {
+       background-color: rgba(255, 0, 0, 0.055);
+}
