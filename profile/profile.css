@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pic {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+.img {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+.main-container {
+    margin-top: 100px;
+    height: 700px;
+    width: 500px;
+}
+.container1 {
+    display: flex;
+}
+.pera1 {
+    color: white;
+    margin-left: 20px;
+    margin-top: 3px;
+}
+.container2 {
+    display: flex;
+    margin-top: 50px;
+}
+.pera2 {
+    color: white;
+    margin-left: 20px;
+    margin-top: 3px;
+}
+.p1 {
+    color: rgb(180, 177, 177);
+}
+.p2 {
+    margin-top: 7px;
+}
+hr {
+    margin-top: 20px;
+}
