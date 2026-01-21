@@ -76,7 +76,7 @@ input {
     border: 1.5px solid rgb(149, 147, 147);
     border-radius: 8px;
     outline: none;
-    /* transition: border-color 0.2s; */
+    transition: border-color 0.2s;
 }
 
 input:focus {
