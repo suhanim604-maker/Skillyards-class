@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="checkout.css">
+</head>
+<body>
+    <form>
+        <div class="header">
+        <h1>checkout</h1>
+        <a href="product.html">
+        <p class="p"> ← Back to card</p>
+        </a>
+        </div>
+    <div class="container">
+        <p class="p2">Enter your delivery details below.</p>
+        <div class="card1">
+            <div class="div">
+            <input type="text" placeholder="Full Name" required>
+            <input type="number" placeholder="Phone Number" class="inp1" required>
+            </div>
+            <div class="div">
+            <input type="text" placeholder="City" required>
+            <input type="number" placeholder="Pincode" class="inp1" required>
+            </div>
+            <div class="div">
+            <input type="text" placeholder="Full Address" required>
+            </div>
+        </div>
+        <div class="card2">
+            <select name="payment" class="pay" required>
+                <option>Select Payment Method</option>
+                <option>cash delivery</option>
+                <option>UPI</option>
+                <option>credit card</option>
+                <option>Phonepay</option>
+            </select>
+        </div>
+          <h2>Total</h2>
+          <button class="btn">
+         <a href="order.html" class="btn cnt">Place Order</a>
+         </button>
+    </div>
+    </form>
+</body>
+</html>

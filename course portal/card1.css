@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    justify-content: center;
+    background-image: url(https://en.ac-illust.com/blog/wp-content/uploads/2022/04/2661129-1-900x642.jpg);
+    background-size: cover;
+}
+.nav {
+    padding: 15px;
+    width: 1400px;
+    background-color: rgb(38, 11, 63);
+    color: white;
+}
+.card {
+    margin-left: 140px;
+    height: 400px;
+    width:350px;
+    background-color: antiquewhite;
+    margin-top: 50px;
+    padding: 20px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    
+    box-shadow: 2px 2px 10px;
+}
+span {
+    font-weight: bold;
+}
+ul {
+    margin-left: 50px;
+    margin-top: 20px;
+    font-size: 18px;
+}
+p {
+    margin-top: 15px;
+    font-size: 20px;
+}
+h2 {
+    
+    font-size: 27px;
+}
+.img {
+    height: 400px;
+    width: 380px;
+    margin-top: 50px; 
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+    box-shadow: 2px 2px 10px;  
+}
+.container {
+   display: flex;
+   margin-right: 50px;
+   background-size: cover;
+}
+.content {
+    height: 500px;
+    width: 1000px;
+    background-color: whitesmoke;
+    box-shadow: 2px 2px 10px;
+    margin-left: 150px;
+    margin-top: 20px;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+
+}
+.a {
+    margin-top: 30px;
+    font-size: 20px;
+}
